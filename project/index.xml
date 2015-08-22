@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>h4tch&#39;s blog </title>
+	<description>A blog about technology, programming, and random thoughts by Daniel Hatch (h4tch).</description>
+	<generator uri="/h4tch.github.io">h4tch&#39;s blog</generator>
+	<link>h4tch.github.io/project/</link>
+	<language>en-us</language>
+	<author>Daniel Hatch</author>
+	<copyright>All rights reserved.</copyright>
+	<updated>Mon, 23 Feb 2015 10:19:38 CST</updated>
+	
+	
+	
+		<item>
+		<title>hugo plus</title>
+		<link>/h4tch.github.io/hugo-plus</link>
+		<pubDate>Mon, 23 Feb 2015 10:19:38 CST</pubDate>
+		<author>Daniel Hatch</author>
+		<guid>/h4tch.github.io/hugo-plus</guid>
+		<description>
+			&lt;p&gt;A modular featured-packed Hugo theme that&amp;rsquo;s built using Bootstrap components.
+The idea is to provide a foundation of componets that can targetted and
+customized to provide a consistent set of features across Hugo themes.&lt;/p&gt;
+
+&lt;p&gt;Each theme provides a different layout while allowing the Bootstap theme to be
+interchangeable.&lt;/p&gt;
+
+&lt;p&gt;This allows a Bootstrap theme to work across layout changes and Layouts to work
+across Bootstrap theme changes.&lt;/p&gt;
+
+			&lt;a href=&#39;h4tch.github.io/h4tch.github.io/hugo-plus&#39;&gt;View Project »&lt;/a&gt;
+		</description>
+		</item>
+	
+</channel>
+</rss>
+

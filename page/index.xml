@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>h4tch&#39;s blog </title>
+	<description>A blog about technology, programming, and random thoughts by Daniel Hatch (h4tch).</description>
+	<generator uri="/h4tch.github.io">h4tch&#39;s blog</generator>
+	<link>h4tch.github.io/page/</link>
+	<language>en-us</language>
+	<author>Daniel Hatch</author>
+	<copyright>All rights reserved.</copyright>
+	<updated>Fri, 23 Jan 2015 10:23:03 CST</updated>
+	
+</channel>
+</rss>
+
