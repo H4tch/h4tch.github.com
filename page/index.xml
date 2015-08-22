@@ -6,8 +6,8 @@
 <channel>
 	<title>h4tch&#39;s blog </title>
 	<description>A blog about technology, programming, and random thoughts by Daniel Hatch (h4tch).</description>
-	<generator uri="/h4tch.github.io">h4tch&#39;s blog</generator>
-	<link>h4tch.github.io/page/</link>
+	<generator uri="http://h4tch.github.io/">h4tch&#39;s blog</generator>
+	<link>http://h4tch.github.io/page/</link>
 	<language>en-us</language>
 	<author>Daniel Hatch</author>
 	<copyright>All rights reserved.</copyright>
