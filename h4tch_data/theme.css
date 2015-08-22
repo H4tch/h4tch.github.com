@@ -11,6 +11,8 @@ h1 {
 /*.content h1, .content h2, .content h3, .content h4, .content h6, .content h6*/
 .content p { font-size:110%; word-wrap:break-word; }
 
+.navbar-default { background-color:transparent; }
+.footer p { color:#ccc; margin-top:10px; }
 
 /*.navbar-brand > .active { color:#FFF; } */
 
