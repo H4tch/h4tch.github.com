@@ -17,7 +17,7 @@ html,body { height:100% !important; }
 */
 .main { padding-top:15px; z-index:2; position:relative; }
 .footer, .push { height:40px; display:table; width:100%; position:relative; margin-bottom:-40px;  }
-.footer-text { margin-top:10px; margin-bottom:10px; }
+.footer p { margin-top:10px; }
 
 .dropdown-menu > li > a { padding:3px 15px; }
 .dropdown-menu > .divider { *width:100%; overflow:hidden; margin:5px 1px; *margin:-5px 0 5px; }
@@ -27,6 +27,7 @@ html,body { height:100% !important; }
 .page-header { margin:0px; }
 .section { margin-bottom:20px; }
 
+.well h2 { margin-top:10px; }
 .about-author-thumbnail { margin-bottom:0px; }
 .aggregation-title { margin-top:25px; margin-bottom:10px; }
 .aggregation-title + hr { margin:0px 0px 15px; }

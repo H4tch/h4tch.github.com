@@ -16,21 +16,97 @@
 	
 	
 		<item>
-		<title>hugo plus</title>
+		<title>Hugo Plus</title>
 		<link>http://h4tch.github.io/hugo-plus</link>
 		<pubDate>Mon, 23 Feb 2015 10:19:38 CST</pubDate>
 		<author>Daniel Hatch</author>
 		<guid>http://h4tch.github.io/hugo-plus</guid>
 		<description>
-			&lt;p&gt;A modular featured-packed Hugo theme that&amp;rsquo;s built using Bootstrap components.
-The idea is to provide a foundation of componets that can targetted and
-customized to provide a consistent set of features across Hugo themes.&lt;/p&gt;
+			&lt;img src=&#39;http://h4tch.github.io/hugo-plus.png&#39;/&gt;
+			
 
-&lt;p&gt;Each theme provides a different layout while allowing the Bootstap theme to be
-interchangeable.&lt;/p&gt;
+&lt;p&gt;Hugo Plus is a modular featured-packed Hugo theme that&amp;rsquo;s built with Bootstrap.
+This project abuses Hugo&amp;rsquo;s data definition framework and template system to
+provide a foundation for custom components, layouts, and themes.&lt;/p&gt;
 
-&lt;p&gt;This allows a Bootstrap theme to work across layout changes and Layouts to work
-across Bootstrap theme changes.&lt;/p&gt;
+&lt;p&gt;Components provide a consistent feature set that all Layouts, Themes, and
+Sections support by default. Sections can selectively disable the components
+that aren&amp;rsquo;t applicable to their content type. This is the main distintion
+between Components and Plugins.&lt;/p&gt;
+
+&lt;p&gt;Plugins have to be explicitly enabled by the Section for them to be rendered.
+Plugins can also be controlled by individual Content Pages by enabling them
+in their Front Matter section.&lt;/p&gt;
+
+&lt;p&gt;Hugo Plus allows Themes, Layouts, Components, and Plugins to be customized and
+overridden independent from each other. Since all Components are built with
+Bootstrap, their styling can be seamlessly swapped out (this can be done
+dynamically with the Bootswap Plugin provided by Hugo Plus).&lt;/p&gt;
+
+&lt;h3 id=&#34;screenshots:e96db35c7d79300c31536efcf2ee5164&#34;&gt;Screenshots&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div class=&#34;magnific-gallery &#34;
+	
+	
+&gt;
+	
+	
+&lt;a href=&#34;http://h4tch.github.io/hugo-plus/screenshot.png&#34;
+	title=&#34;Light Theme Example&#34;
+	
+	class=&#34;magnific-photo mfp-image&#34;
+	
+&gt;
+	
+		
+		&lt;img src=&#34;http://h4tch.github.io/hugo-plus/screenshot.png&#34;
+			class=&#34;img-responsive
+				&#34;
+			
+			
+			
+				style=&#34;display: inline-block; &#34;
+			
+			
+			
+			
+		&gt;&lt;/img&gt;
+	
+	
+&lt;/a&gt;
+
+
+	
+&lt;a href=&#34;http://h4tch.github.io/hugo-plus/screenshot2.png&#34;
+	title=&#34;Dark Theme Example&#34;
+	
+	class=&#34;magnific-photo mfp-image&#34;
+	
+&gt;
+	
+		
+		&lt;img src=&#34;http://h4tch.github.io/hugo-plus/screenshot2.png&#34;
+			class=&#34;img-responsive
+				&#34;
+			
+			
+			
+				style=&#34;display: inline-block; &#34;
+			
+			
+			
+			
+		&gt;&lt;/img&gt;
+	
+	
+&lt;/a&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
 
 			&lt;a href=&#39;http://h4tch.github.io/hugo-plus&#39;&gt;View Project »&lt;/a&gt;
 		</description>

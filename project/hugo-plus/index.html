@@ -14,15 +14,15 @@
 
 
 <title>
-	
+	hugo plus - 
 	 Projects - 
 	h4tch&#39;s blog
 </title>
 <meta name="description" content="A blog about technology, programming, and random thoughts by Daniel Hatch (h4tch).">
 <meta name="keywords" content="programming, software, game, development, blog, design, architecture, abstraction, concept, web">
-<meta name="author" content="Daniel Hatch">
+<meta name="author" content="daniel-hatch">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link type="application/rss+xml" href="http://h4tch.github.io/project/index.xml" rel="alternate" title="h4tch&#39;s blog">
+<link type="application/rss+xml" href="" rel="alternate" title="h4tch&#39;s blog">
 
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -78,10 +78,17 @@
 
 
 <meta property="og:site_name" content="h4tch&#39;s blog" />
-<meta property="og:title" content="Project" />
-<meta property="og:url" content="http://h4tch.github.io/project/" />
+<meta property="og:title" content="hugo plus" />
+<meta property="og:url" content="http://localhost:1313/project/hugo-plus/" />
 
-	<meta property="og:type" content="website" />
+	
+		<meta property="og:type" content="article" />
+		
+		
+		<meta property="og:article:author" content="daniel-hatch" />
+		
+		<meta property="og:article:tag" content="WebDev" />
+	
 
 
 
@@ -161,13 +168,13 @@
 }
 .navbar-fixed-top + * { margin-top:44px !important; }
 .navbar-fixed-top ~ .wrapper { z-index:1;display:none; }
-.navbar-brand {  }
+.navbar-brand { padding:0px 15px; }
 .navbar-brand > img {
 	max-height:40px;
 	display:inline-block;
 	margin:2% 15px 0 0;
 }
-.navbar-brand > span {  display:inline-block; }
+.navbar-brand > span { padding:10px 0px 10px 0px; display:inline-block; }
 
 .nav > li { display:inline-block; float:left; }
 .navbar-right > li { display:inline-block; float:right; }
@@ -190,7 +197,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-	<a href="http://h4tch.github.io/" class="navbar-brand">
+	<a href="http://localhost:1313" class="navbar-brand">
 		
 		
 		<span class="">
@@ -236,7 +243,7 @@
 				
 					
 					
-						<li class="">
+						<li class="active">
 							<a href="/hugo-plus" class="nav-link">Hugo plus</a>
 						</li>
 					
@@ -357,9 +364,12 @@
 
 
 	<li><a href="/">Home</a></li>
-	<li><span class="divider"></span>Projects</li>
 	
-	<li><span class="divider"></span></li>
+		<li><span class="divider"></span><a href="/project">Projects</a></li>
+	
+	
+	<li><span class="divider"></span>Hugo Plus</li>
+	
 
 </ul>
 </div>
@@ -373,71 +383,9 @@
 
 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 	
 	
-	
-	
-
-
-
-	
-	
-	
-		
-	
-	
-	
-
-	
-	
-	
-		
-		
-			
-
-
-
 
 
 
@@ -447,8 +395,8 @@
 
 
 <div class="panel panel-default">
-<div class="panel-body content summay">
-<div class="clearfix content-block summary-block">
+<div class="panel-body content">
+<div class="clearfix content-block">
 	
 
 
@@ -460,14 +408,14 @@
 
 
 	<span class="thumbnail content-thumbnail pull-right">
-		<a href="http://h4tch.github.io/hugo-plus">
+		<a href="http://localhost:1313/project/hugo-plus/">
 		<img src="/hugo-plus.png" title=""
 		 class="img-responsive center-block"></a>
 	</span>
 
 
 
-	<a href="http://h4tch.github.io/hugo-plus"><h1 class="content-title summary-header">Hugo Plus</h1></a>
+	<a href="http://localhost:1313/project/hugo-plus/"><h1 class="content-title">Hugo Plus</h1></a>
 	
 
 
@@ -480,28 +428,18 @@
 
 
 
-	
-	 <p>Hugo Plus is a modular featured-packed Hugo theme that&rsquo;s built with Bootstrap.
-This project abuses Hugo&rsquo;s data definition framework and template system to
-provide a foundation for custom components, layouts, and themes.</p>
+	<p>A modular featured-packed Hugo theme that&rsquo;s built using Bootstrap components.
+The idea is to provide a foundation of componets that can targetted and
+customized to provide a consistent set of features across Hugo themes.</p>
 
-<p>Components provide a consistent feature set that all Layouts, Themes, and
-Sections support by default. Sections can selectively disable the components
-that aren&rsquo;t applicable to their content type. This is the main distintion
-between Components and Plugins.</p>
+<p>Each theme provides a different layout while allowing the Bootstap theme to be
+interchangeable.</p>
 
-<p>Plugins have to be explicitly enabled by the Section for them to be rendered.
-Plugins can also be controlled by individual Content Pages by enabling them
-in their Front Matter section.</p>
+<p>This allows a Bootstrap theme to work across layout changes and Layouts to work
+across Bootstrap theme changes.</p>
 
-<p>Hugo Plus allows Themes, Layouts, Components, and Plugins to be customized and
-overridden independent from each other. Since all Components are built with
-Bootstrap, their styling can be seamlessly swapped out (this can be done
-dynamically with the Bootswap Plugin provided by Hugo Plus).</p>
- 
 </div>
 	
-	
 		
 		
 			
@@ -517,23 +455,7 @@ dynamically with the Bootswap Plugin provided by Hugo Plus).</p>
 			
 		
 	
-	
-	</div>
-	
-
-	<div class="panel-footer content-footer summary-footer">
-	
 		
-		
-			
-			
-
-
-
-
-<a class="text-info continue-message" href="http://h4tch.github.io/hugo-plus">View Project »</a>
-
-
 			
 		
 	
@@ -546,45 +468,246 @@ dynamically with the Bootswap Plugin provided by Hugo Plus).</p>
 
 
 
-<a href="http://h4tch.github.io/hugo-plus#comments" class="text-info comment-count">
+
+
+
+
+
+
+
+
+<div class="row no-pad">
+
 	
-		<span class="disqus-comment-count" data-disqus-identifier="projects-hugo-plus"></span>
 	
-	<span class="fa fa-comment-o"></span>
-</a>
+	
+	
+	
+	
+	
+		<div class="col-xs-12 col-sm-6 column">
+		
+		<div class="btn-group btn-group-justified follow-links">
+	
+	
+	
+	
+		<a href="//github.com/hugo-plus" title="Follow on Github" class="btn btn-sm color-github follow-btn follow-btn-github" target="_blank">
+			<span class="follow-btn-icon follow-btn-icon-github fa fa-github"
+			 style="" target="_blank"></span>
+			
+		</a>
+	
+	
+	
+
+	
+	
+	
+	
+	
+	</div></div>
+	
+		<div class="col-xs-12 col-sm-6 column">
+		
+		<div class="btn-group btn-group-justified follow-links">
+	
+	
+	
+	
+		<a href="//gratipay.com/danielh4tch" title="Support me on Gratipay" class="btn btn-sm color-gratipay follow-btn follow-btn-gratipay" target="_blank">
+			<span class="follow-btn-icon follow-btn-icon-gratipay fa fa-gratipay"
+			 style="" target="_blank"></span>
+			
+		</a>
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<a href="//flattr.com/profile/h4tch" title="Flattr me" class="btn btn-sm color-flattr follow-btn follow-btn-flattr" target="_blank">
+			<span class="follow-btn-icon follow-btn-icon-flattr "
+			 style="" target="_blank"></span>
+			<img src="/default_data/flattr-white.png">
+		</a>
+	
+	
+	
+
+</div>
+</div>
+</div>
+
+
 
 
 
 			
 		
 	
-	</div>
+		
+		
+			
+			
+
+
+<style>.category-labels { margin:10px 0px; float:left; }</style>
+<div class="category-labels">
+	
+		
+		<a class="btn btn-primary btn-xs category-label category-webdev"
+		 href="/categories/webdev">
+		 	WebDev</a>
 	
 </div>
 
 
+
+			
 		
-	
-	
-	
-
-
-
-	
-	
-	
-	
-	
-
-
-
-
-
-
-	
 	
 		
 		
+			
+			
+
+
+
+
+
+
+
+			
+		
+	
+</div>
+
+
+<div class="panel-footer content-footer">
+	
+		
+			
+		
+	
+		
+		
+			
+			
+
+
+
+
+
+
+
+			
+		
+	
+		
+			
+		
+	
+</div>
+
+</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+<div class="panel panel-default page-list aggregation-list">
+	<ul class="list-group list-unstyled">
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+	
+	
+		
+		
 
 
 
@@ -606,9 +729,16 @@ dynamically with the Bootswap Plugin provided by Hugo Plus).</p>
 
 
 
+	</ul>
+</div>
 
 
 
+
+
+	
+		
+	
 
 
 
@@ -642,14 +772,14 @@ dynamically with the Bootswap Plugin provided by Hugo Plus).</p>
 		
 			<div class="col-xs-4 col-md-12 column">
 				<div class="thumbnail about-author-thumbnail">
-					<a href="http://h4tch.github.io/author/daniel-hatch">
+					<a href="http://localhost:1313/author/daniel-hatch/">
 					 <img src="/img/h4tch.png" title="Daniel Hatch"
 					 class="img-responsive center-block"></a>
 				</div>
 			</div>
 		
 		<div class="col-sm-12 col-md-12 column">
-			<p class="text-justify"><p><strong>Developer · Designer · Dreamer</strong></p>
+			<p class="text-justify"><p><strong>Developer/Designer/Dreamer</strong></p>
 
 <p>I am a self-taught software developer with a passion for building and designing
 better systems and abstractions to improve software development.</p>
@@ -686,14 +816,14 @@ to a common interface.</p>
 
 <ul class="list-group list-unstyled recent-posts-links">
  
-	<a href="/"
+	<a href="/project"
 	 class="list-group-item active recent-posts-title">
 		Recent</a>
 	
 		
 	
 		
-			<a href="http://h4tch.github.io/hugo-plus" class="list-group-item recent-posts-link">Hugo Plus</a>
+			<a href="http://localhost:1313/project/hugo-plus/" class="list-group-item recent-posts-link">Hugo Plus</a>
 		
 	
 		
@@ -732,7 +862,7 @@ to a common interface.</p>
 
 
 <ul class="list-group list-unstyled social-links">
-<a href="http://h4tch.github.io//about/"
+<a href="http://localhost:1313/about/"
  class="list-group-item active">Social</a>
 
 
@@ -795,15 +925,6 @@ to a common interface.</p>
 	
 	
 	
-		<a href="http://h4tch.github.io/project/index.xml" class="list-group-item social-rss"><li>
-		<span class="pull-right text-info social-icon social-rss fa fa-rss-square"
-		 style="" target="_blank">
-			
-			
-		</span>
-			Rss Feed
-		</li></a>
-	
 	
 	
 
@@ -831,15 +952,15 @@ to a common interface.</p>
 
 
 <ul class="list-group list-unstyled category-links">
-<a href="http://h4tch.github.io//categories/" class="list-group-item active category-title">Categories</a>
+<a href="http://localhost:1313/categories/" class="list-group-item active category-title">Categories</a>
 
 	
 	
-		<a href="http://h4tch.github.io//categories/webdev" class="list-group-item category-link">
+		<a href="http://localhost:1313/categories/webdev" class="list-group-item category-link">
 			Webdev<span class="badge progress-bar-info">1</span></a>
 	
 
-	<a href="http://h4tch.github.io//tags/" class="list-group-item category-link">
+	<a href="http://localhost:1313/tags/" class="list-group-item category-link">
 		Tags<span class="text-info fa fa-tags pull-right" style="font-size:133%;"></span></a>
 </ul>
 
@@ -933,7 +1054,7 @@ to a common interface.</p>
 		<p class="footer-text credit"><small>
 			&copy; 2015
 			
-				<a class="text-info" href="http://h4tch.github.io/author/daniel-hatch">Daniel Hatch</a>.
+				<a class="text-info" href="http://localhost:1313/author/daniel-hatch/">Daniel Hatch</a>.
 			
 			
 				<copyright>All rights reserved.</copyright>
